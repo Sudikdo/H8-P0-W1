@@ -1,0 +1,15 @@
+var nama = 'Dikdo';
+var peran = '';
+
+if (peran === 'Ksatria') {
+	console.log('hallo');
+}
+else if (peran === 'Tabib'){
+	console.log('hallo' );
+}
+else if (peran === 'Penyihir') {
+	console.log('hallo' );
+}
+else {
+	console.log('pilih peranmu');
+}

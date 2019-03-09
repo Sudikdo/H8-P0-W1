@@ -1,0 +1,77 @@
+Looping 1.
+--------------------------------------------------------
+var text1 = "I love coding"
+var text2 = " I will become fullstack programer"
+var pertama = " LOOPING PERTAMA"
+var kedua = " LOOPING KEDUA"
+var i = 0
+var i2 = 20
+console.log(pertama)
+while (i < 20 ){
+  console.log ( i + " - " + text1)
+  i+=2
+}
+console.log(kedua)
+while (i2 == 20 ){
+  console.log ( i2 + " - " + text2)
+  i2-=2
+}
+
+--------------------------------------------------------
+Looping 2.
+--------------------------------------------------------
+console.log("LOOPING PERTAMA")
+for(var angka = 1; angka <= 20; angka++) {
+  console.log(angka + " - " + "I love coding");
+}
+console.log("LOOPING KEDUA")
+for(var angka = 20 ; angka >= 1; angka--) {
+  console.log(angka + " - " + "I will become fullstack programer");
+}
+---------------------------------------------------------
+Looping 3.
+---------------------------------------------------------
+-Ganjil Genap-
+
+for(var deret = 0; deret < 100; deret++) {
+  if(deret%2==0){
+    console.log('Iterasi dengan Increment counter 2: ' + deret + ' ' +'Genap');
+  }
+  else{
+    console.log('Iterasi dengan Increment counter 2: ' + deret + ' ' +'Ganjil');
+  }
+}
+
+-Kelipatan-
+
+
+
+for(var deret = 1; deret < 100; deret+=2) {
+  if(deret%3==0){
+    console.log('Counter :' + deret + ' ' + 'Kelipatan 3');
+  }
+  else{
+    console.log('Counter :' + deret + ' ' );
+  }
+}
+
+for(var deret2 = 1; deret2 < 100; deret2 +=5) {
+  if(deret2 %6==0){
+    console.log('Counter: ' + deret2 + ' ' + 'Kelipatan 6');
+  }
+  else{
+    console.log('Counter: ' + deret2 + ' ' );
+  
+  }
+}
+
+
+for(var deret3 = 1; deret3 < 100; deret3 +=9) {
+  if(deret3 %10==0){
+    console.log('Counter : ' + deret3 + ' ' + 'Kelipatan 10');
+  }
+  else{
+    console.log('Counter : ' + deret3 + ' ' );
+  }
+}
+

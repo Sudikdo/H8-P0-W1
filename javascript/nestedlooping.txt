@@ -1,0 +1,29 @@
+1.Menyusun barisan bintang
+----------------------------------------------------
+for (var rows = 0; rows <5 ; rows ++){
+  console.log("*")
+}
+
+----------------------------------------------------
+2.Menyusun barisan bintang dengan nested looping
+----------------------------------------------------
+for (var rows = 0; rows <=5; rows++){
+  bintang = ""
+  for (var simbol = 0; simbol <=5 ;simbol ++){
+    bintang += "*"
+  }
+  console.log(bintang)
+}
+
+-------------------------------------------------------
+3.Menyusun barisan tangga bintang dengan nested looping
+-------------------------------------------------------
+for (var rows = 0; rows <1; rows++){
+  bintang = ""
+  for (var simbol = 0; simbol <=5 ;simbol ++){
+    bintang += "*"
+        console.log(bintang)
+    
+  }  
+
+}
