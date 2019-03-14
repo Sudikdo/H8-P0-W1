@@ -1,5 +1,5 @@
-var nama = prompt('Masukan Nama Anda: ');
-var peran = prompt('Pilih Peran(Ksatria, Tabib, Penyihir): ');
+var nama = '';
+var peran = '';
 
 if(peran === 'Ksatria') {
   console.log('Selamat datang di Dunia Proxytia, ' + nama );
